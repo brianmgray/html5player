@@ -1,5 +1,6 @@
 $(function() {
 $('canvas').addClass('all');
-$( "canvas" ).draggable();
+$( "div.canvasWrapper" ).draggable();
+$( "canvas" ).resizable();
 
 });
